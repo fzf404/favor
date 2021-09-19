@@ -1,5 +1,6 @@
 <script setup>
 import { NConfigProvider } from "naive-ui";
+import { NBackTop } from "naive-ui";
 import Index from "./components/Index.vue";
 
 const themeOverrides = {
@@ -10,19 +11,21 @@ const themeOverrides = {
     titleFontSizeMedium: "22px",
     paddingMedium: "6px 20px 8px",
   },
+  Typography: {
+    headerFontSize1: "46px",
+    headerTextColor:"#555",
+    headerFontSize2: "32px",
+
+  },
 };
 </script>
 
-<template>
-  <n-config-provider :theme-overrides="themeOverrides">
-    <Index />
-  </n-config-provider>
+<template lang="pug">
+n-config-provider(:theme-overrides="themeOverrides")
+  n-back-top(:bottom="80", :right="60", show)
+  Index
 </template>
 
 
 <style>
-body {
-  padding: 5vh 10vw;
-  background-color: #f0f2f5;
-}
 </style>
