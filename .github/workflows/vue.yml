@@ -1,0 +1,23 @@
+name: FAVOR_DEPLOY
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup
+        run: |
+          yarn
+
+      - name: Build
+        run: |
+          yarn run build
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          publish_dir: ./dist
