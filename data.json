@@ -1,16 +1,26 @@
 {
-	"影视": {
+	"电影": {
 		"color": "info",
-		"description": "2345",
+		"description": "电影发明后，人类的寿命至少延长了三倍",
+		"max": 2,
 		"list": [
 			{
-				"title": "花火",
-				"image": "image/hh.jpg",
-				"author": "北野武",
-				"url": "https://movie.douban.com/subject/1302642/",
-				"intro": "重压之后的释放",
-				"comment": "心有猛虎，细嗅蔷薇。",
-				"content": "“那顶警灯，你要拿来干什么？”“打劫银行”"
+				"title": "让子弹飞",
+				"image": "image/rzdf.jpg",
+				"author": "姜文",
+				"url": "https://movie.douban.com/subject/3742360/",
+				"intro": "让子弹飞一会儿",
+				"comment": "拍个虎虎生风，拍个一日千里，拍个恍若隔世！",
+				"content": "枪在手，跟我走！杀四郎，抢碉楼！"
+			},
+			{
+				"title": "寄生虫",
+				"image": "image/jsc.jpg",
+				"author": "奉俊昊",
+				"url": "https://movie.douban.com/subject/27010768/",
+				"intro": "贫富阶级的对立",
+				"comment": "不得奥斯卡最佳外语片我吃键盘",
+				"content": "不是“有钱却很善良”，是“有钱所以善良”，懂吗？如果我有钱，我也会很善良，超级善良。"
 			},
 			{
 				"title": "布达佩斯大饭店",
@@ -22,46 +32,124 @@
 				"content": "无礼只是恐惧的一种表露。"
 			},
 			{
-				"title": "有话好好说",
-				"image": "image/nz.jpg",
-				"author": "张艺谋/姜文",
-				"url": "https://movie.douban.com/subject/1296436/",
-				"intro": "老北京被逼急了",
-				"comment": "老谋子这么拍电影不是挺好吗 整什么乱七八糟的呀。。。",
-				"content": "俺红，俄向你向第水不捉叫"
-			},
-			{
-				"title": "有话好好说",
-				"image": "image/nz.jpg",
-				"author": "张艺谋/姜文",
-				"url": "https://movie.douban.com/subject/1296436/",
-				"intro": "老北京被逼急了",
-				"comment": "老谋子这么拍电影不是挺好吗 整什么乱七八糟的呀。。。",
-				"content": "俺红，俄向你向第水不捉叫"
-			},
-			{
-				"title": "有话好好说",
-				"image": "image/nz.jpg",
-				"author": "张艺谋/姜文",
-				"url": "https://movie.douban.com/subject/1296436/",
-				"intro": "老北京被逼急了",
-				"comment": "老谋子这么拍电影不是挺好吗 整什么乱七八糟的呀。。。",
-				"content": "俺红，俄向你向第水不捉叫"
-			},
-			{
-				"title": "让子弹飞",
-				"image": "image/rzdf.jpg",
+				"title": "鬼子来了",
+				"image": "image/gzll.jpg",
 				"author": "姜文",
-				"url": "https://movie.douban.com/subject/3742360/",
-				"intro": "让子弹飞一会儿",
-				"comment": "拍个虎虎生风，拍个一日千里，拍个恍若隔世！",
-				"content": "枪在手，跟我走！杀四郎，抢碉楼！"
+				"url": "https://movie.douban.com/subject/1291858/",
+				"intro": "被封禁的抗日纪实",
+				"comment": "中国农民是善良的，是好人。同时却也是愚笨的，是软弱的。软弱往往导致善良变质成为受欺。",
+				"content": "大哥大嫂过年好，你是我的爷，我是你的儿！"
+			},
+			{
+				"title": "花火",
+				"image": "image/hh.jpg",
+				"author": "北野武",
+				"url": "https://movie.douban.com/subject/1302642/",
+				"intro": "重压之后的释放",
+				"comment": "心有猛虎，细嗅蔷薇。",
+				"content": "那顶警灯，你要拿来干什么？ 打劫银行。"
+			},
+			{
+				"title": "南山的部长们",
+				"image": "image/nsdbzm.jpg",
+				"author": "禹民镐",
+				"url": "https://movie.douban.com/subject/30241298/",
+				"intro": "恐怖的政治片",
+				"comment": "这种剧情也就韩国敢写敢拍敢演。金部长窃听那一段，真的是屏住呼吸，金部长挂在眼镜上的雨水颤栗的恰到好处。李秉宪应该会因为这个角色再添一个影帝吧。",
+				"content": "寻找自由的朋友，他们在呻吟；声音回响在南山和西大门。"
+			},
+			{
+				"title": "釜山行",
+				"image": "image/fsx.jpg",
+				"author": "延尚昊",
+				"url": "https://movie.douban.com/subject/25986180/",
+				"intro": "末日下人性的展现",
+				"comment": "目前亚洲商业片的最高水准 看完之后对国产电影充满了愤怒。",
+				"content": "早知道是这样，为什么活的那么辛苦。"
+			},
+			{
+				"title": "有话好好说",
+				"image": "image/yhhhs.jpg",
+				"author": "张艺谋/姜文",
+				"url": "https://movie.douban.com/subject/1296436/",
+				"intro": "老北京被逼急了",
+				"comment": "老谋子这么拍电影不是挺好吗 整什么乱七八糟的呀。。。",
+				"content": "俺红，俄向你向第水不捉叫"
+			},
+			{
+				"title": "闻香识女人",
+				"image": "image/wxsnr.jpg",
+				"author": "马丁·布莱斯特",
+				"url": "https://movie.douban.com/subject/1298624/",
+				"intro": "老北京被逼急了",
+				"comment": "老谋子这么拍电影不是挺好吗 整什么乱七八糟的呀。。。",
+				"content": "俺红，俄向你向第水不捉叫"
+			}
+		]
+	},
+	"动画": {
+		"color": "success",
+		"description": "摄影机下无法展现出的世界",
+		"max": 2,
+		"list": [
+			{
+				"title": "疯狂动物城",
+				"image": "image/fkdwc.jpg",
+				"author": "迪士尼",
+				"url": "https://movie.douban.com/subject/25662329/",
+				"intro": "令人向往的乌托邦",
+				"comment": "不要看任何影评，如果可以预告片都别看，直接买票就好了。你要啥这电影里有啥！",
+				"content": "Everyone can be anything"
+			},
+			{
+				"title": "你的名字",
+				"image": "image/ndmz.jpg",
+				"author": "新海诚",
+				"url": "https://movie.douban.com/subject/11525673/",
+				"intro": "身份交换后产生的爱情",
+				"comment": "这部片深刻地告诉我们 一个有好剧本的诚哥有多可怕 ☄",
+				"content": "君の名は"
+			}
+		]
+	},
+	"剧集": {
+		"max": 2,
+		"color": "warning",
+		"description": "比电影更复杂的剧情",
+		"list": [
+			{
+				"title": "人民的名义",
+				"image": "image/rmdmy.jpg",
+				"author": "李路",
+				"url": "https://movie.douban.com/subject/26727273/",
+				"intro": "反腐进行时",
+				"comment": "尺度虽大，但仍需提高，剧情还可以再紧凑，没有美剧那种渴望一口气追下去的欲望。中国电视剧的问题还是在剧情密度啊，集数太多了。",
+				"content": "你只要不干坏事，就没人能坏你的事。"
+			},
+			{
+				"title": "半泽直树",
+				"image": "image/bzzs.jpg",
+				"author": "堺雅人",
+				"url": "https://movie.douban.com/subject/24697949/",
+				"intro": "职场爽剧",
+				"comment": "「在银行，人事就是一切」",
+				"content": "やり返す、倍返しだ"
+			},
+			{
+				"title": "白夜追凶",
+				"image": "image/byzx.jpg",
+				"author": "韦斯·安德森",
+				"url": "https://movie.douban.com/subject/26883064/",
+				"intro": "",
+				"comment": "编剧水平有点飘忽，但人物写的很好，逼死同行是没问题了。",
+				"content": "君の名は"
 			}
 		]
 	},
 	"文学": {
-		"color": "info",
-		"description": "2345",
+		"color": "error",
+		"description": "徜徉在文字的海洋里",
+		"max": 4,
 		"list": [
 			{
 				"title": "孽子",
@@ -82,6 +170,15 @@
 				"content": "那一天我二十一岁，在我一生的黄金时代。我有好多奢望。我想爱，想吃，还想在一瞬间变成天上半明半暗的云。后来我才知道，生活就是个缓慢受锤的过程，人一天天老下去，奢望也一天天消失，最后变得像挨了锤的牛一样。"
 			},
 			{
+				"title": "罪与罚",
+				"image": "image/zyf.jpg",
+				"author": "陀思妥耶夫斯基",
+				"url": "https://book.douban.com/subject/1858568/",
+				"intro": "我杀了人，但我无罪",
+				"comment": "读老陀总能感受到令人晕眩的疯狂、纠结和痛苦，以及一波又一波直抵人心的冲击，掩卷之后，好像醍醐灌顶，又好像什么都没有发生。尾声实在动人。此版译文差强人意。 读书计划进度6%。",
+				"content": "我不是向你下跪，而是向人类的一切苦难下跪"
+			},
+			{
 				"title": "生死疲劳",
 				"image": "image/sspl.jpg",
 				"author": "莫言",
@@ -98,22 +195,23 @@
 				"intro": "一大家子在老北京的经历",
 				"comment": "战争到来时，你会是谁？",
 				"content": "他是个很体面的苍蝇，哪里有粪，他便与其他的蝇子挤在一处去凑热闹；在找不到粪的时候，他会用腿儿玩弄自己的翅膀，或用头轻轻的撞窗户纸玩，好像表示自己是普天下第一号的苍蝇。"
+			},
+			{
+				"title": "鹿鼎记",
+				"image": "image/sspl.jpg",
+				"author": "莫言",
+				"url": "https://book.douban.com/subject/1465007/",
+				"intro": "地主转世变成家畜的故事",
+				"comment": "自猪开始拖沓，自狗开始泄气。读前半部是生死，读后半部是疲劳。",
+				"content": "我要保持卫生，保持整洁，定点大小便，克制鼻子发痒想拱翻一切的欲望，给人们留下最为美好的印象。要做霸王，先做良民。我是一头博古通今的猪，汉朝的王莽就是我的榜样。"
 			}
 		]
 	},
 	"科幻": {
 		"color": "info",
-		"description": "2345",
+		"description": "对未来的憧憬",
+		"max": 4,
 		"list": [
-			{
-				"title": "三体",
-				"image": "image/st.jpg",
-				"author": "刘慈欣",
-				"url": "https://book.douban.com/subject/2567698/",
-				"intro": "广受好评的科幻作品",
-				"comment": "有点屌，也有点“作者语文是物理老师教的”的感觉",
-				"content": "无限长的曲线就是宇宙的抽象，一头连着无限的过去，另一头连着无限的未来，中间只有无规律无生命的随机起伏，一个个高低错落的波峰就像一粒粒大小不等的沙子，整条曲线就像是所有沙粒排成行形成的一维沙漠，荒凉寂寥，长得更令人无法忍受。你可以沿着它向前向后走无限远，但永远找不到归宿。"
-			},
 			{
 				"title": "献给阿尔吉侬的花束",
 				"image": "image/xgaejndhs.jpg",
@@ -122,13 +220,7 @@
 				"intro": "愚人变成智者的思想转变",
 				"comment": "看完了，只有一句话，草泥马我的心好痛。",
 				"content": "寒冷、灰扑扑的感觉笼罩在我四周……一种认命的无奈感。人们绝口不谈复健、治疗，或是把病人重新送回世界，没有人谈到希望。那种感觉就像活生生的死亡……或是更糟，根本不曾充分活着与了解。灵魂从一开始就在枯萎，并注定要对着每一天的时间与空间凝望。"
-			}
-		]
-	},
-	"杂类": {
-		"color": "info",
-		"description": "2345",
-		"list": [
+			},
 			{
 				"title": "三体",
 				"image": "image/st.jpg",
@@ -137,6 +229,22 @@
 				"intro": "广受好评的科幻作品",
 				"comment": "有点屌，也有点“作者语文是物理老师教的”的感觉",
 				"content": "无限长的曲线就是宇宙的抽象，一头连着无限的过去，另一头连着无限的未来，中间只有无规律无生命的随机起伏，一个个高低错落的波峰就像一粒粒大小不等的沙子，整条曲线就像是所有沙粒排成行形成的一维沙漠，荒凉寂寥，长得更令人无法忍受。你可以沿着它向前向后走无限远，但永远找不到归宿。"
+			}
+		]
+	},
+	"杂类": {
+		"color": "success",
+		"description": "政治、科学",
+		"max": 4,
+		"list": [
+			{
+				"title": "动物农场",
+				"image": "image/dwnc.jpg",
+				"author": "乔治·奥威尔",
+				"url": "https://book.douban.com/subject/2035179/",
+				"intro": "动物当家作主",
+				"comment": "你们有你们的低等动物需要对付 我们有我们的下层阶级需要摆平",
+				"content": "所有动物都是平等的，但有些动物比其他动物更平等。"
 			},
 			{
 				"title": "献给阿尔吉侬的花束",
