@@ -12,9 +12,9 @@ const themeOverrides = {
     paddingMedium: "6px 20px 8px",
   },
   Typography: {
-    headerFontSize1: "46px",
+    headerFontSize1: "44px",
     headerTextColor:"#555",
-    headerFontSize2: "32px",
+    headerFontSize2: "30px",
 
   },
 };

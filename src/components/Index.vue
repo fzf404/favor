@@ -64,8 +64,9 @@ div(style="margin-left: 1rem")
           template(#header-extra)
             | {{ i['author'] }}
           template(#default)
-            n-text(type="info")
-              | 介绍：{{ i['intro'] }}
+            n-ellipsis(line-clamp="1")
+              n-text(type="info")
+                | 介绍：{{ i['intro'] }}
           template(#footer)
             n-ellipsis(line-clamp="2", style="min-height: 50px")
               n-text(type="success")
@@ -115,7 +116,7 @@ div(style="margin-left: 1rem")
 }
 
 .card-img {
-  padding: 1rem 3.3rem;
+  padding: 1rem 3rem;
 }
 
 .v-binder-follower-container {
