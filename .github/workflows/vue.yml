@@ -19,11 +19,11 @@ jobs:
 
       - name: Setup
         run: |
-          npm install
+          yarn install
 
       - name: Build
         run: |
-          npm run build
+          yarn run build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
