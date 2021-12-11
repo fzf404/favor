@@ -25,5 +25,4 @@ n-config-provider(:theme-overrides="themeOverrides")
   Index
 </template>
 
-</style>
 <style></style>
