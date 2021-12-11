@@ -13,9 +13,8 @@ const themeOverrides = {
   },
   Typography: {
     headerFontSize1: "44px",
-    headerTextColor:"#555",
+    headerTextColor: "#555",
     headerFontSize2: "30px",
-
   },
 };
 </script>
@@ -26,6 +25,5 @@ n-config-provider(:theme-overrides="themeOverrides")
   Index
 </template>
 
-
-<style>
 </style>
+<style></style>

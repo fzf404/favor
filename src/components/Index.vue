@@ -80,7 +80,6 @@ div(style="margin-left: 1rem")
                 | “ {{ i['content'] }} ”
 </template>
 
-
 <style>
 .content {
   padding: 5vh 10vw;
