@@ -111,7 +111,7 @@ div(style="margin-left: 1rem")
 }
 
 .card-item {
-  border-radius: 16px;
+  border-radius: 22px;
 }
 
 .card-img {
@@ -124,5 +124,9 @@ div(style="margin-left: 1rem")
 
 .n-card-header__extra {
   color: #666 !important;
+}
+
+.n-card__action {
+  border-radius: 22px !important;
 }
 </style>
