@@ -48,6 +48,17 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
+"@jest/types@^27.4.2":
+  version "27.4.2"
+  resolved "https://registry.yarnpkg.com/@jest/types/-/types-27.4.2.tgz#96536ebd34da6392c2b7c7737d693885b5dd44a5"
+  integrity sha512-j35yw0PMTPpZsUoOBiuHzr1zTYoad1cVIE0ajEjcrJONxxrko/IRGKkXx3os0Nsi4Hu3+5VmDbVfq5WhG/pWAg==
+  dependencies:
+    "@types/istanbul-lib-coverage" "^2.0.0"
+    "@types/istanbul-reports" "^3.0.0"
+    "@types/node" "*"
+    "@types/yargs" "^16.0.0"
+    chalk "^4.0.0"
+
 "@types/estree@^0.0.48":
   version "0.0.48"
   resolved "https://registry.nlark.com/@types/estree/download/@types/estree-0.0.48.tgz#18dc8091b285df90db2f25aa7d906cfc394b7f74"
@@ -79,6 +90,14 @@
   dependencies:
     jest-diff "^26.0.0"
     pretty-format "^26.0.0"
+
+"@types/jest@^27.0.1":
+  version "27.0.3"
+  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-27.0.3.tgz#0cf9dfe9009e467f70a342f0f94ead19842a783a"
+  integrity sha512-cmmwv9t7gBYt7hNKH5Spu7Kuu/DotGa+Ff+JGRKZ4db5eh8PnKS4LuebJ3YLUoyOyIHraTGyULn23YtEAm0VSg==
+  dependencies:
+    jest-diff "^27.0.0"
+    pretty-format "^27.0.0"
 
 "@types/lodash-es@^4.17.4":
   version "4.17.5"
@@ -116,6 +135,13 @@
   version "15.0.14"
   resolved "https://registry.nlark.com/@types/yargs/download/@types/yargs-15.0.14.tgz?cache=0&sync_timestamp=1629709931635&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40types%2Fyargs%2Fdownload%2F%40types%2Fyargs-15.0.14.tgz#26d821ddb89e70492160b66d10a0eb6df8f6fb06"
   integrity sha1-Jtgh3biecEkhYLZtEKDrbfj2+wY=
+  dependencies:
+    "@types/yargs-parser" "*"
+
+"@types/yargs@^16.0.0":
+  version "16.0.4"
+  resolved "https://registry.yarnpkg.com/@types/yargs/-/yargs-16.0.4.tgz#26aad98dd2c2a38e421086ea9ad42b9e51642977"
+  integrity sha512-T8Yc9wt/5LbJyCaLiHPReJa0kApcIgJ7Bn735GjItUfh08Z1pJvu8QZqb9s+mMvKV6WUQRV7K2R46YbjMXTTJw==
   dependencies:
     "@types/yargs-parser" "*"
 
@@ -220,7 +246,7 @@ acorn@^7.1.1:
   resolved "https://registry.nlark.com/acorn/download/acorn-7.4.1.tgz?cache=0&sync_timestamp=1630916591807&other_urls=https%3A%2F%2Fregistry.nlark.com%2Facorn%2Fdownload%2Facorn-7.4.1.tgz#feaed255973d2e77555b83dbc08851a6c63520fa"
   integrity sha1-/q7SVZc9LndVW4PbwIhRpsY1IPo=
 
-ansi-regex@^5.0.0:
+ansi-regex@^5.0.0, ansi-regex@^5.0.1:
   version "5.0.1"
   resolved "https://registry.nlark.com/ansi-regex/download/ansi-regex-5.0.1.tgz?cache=0&sync_timestamp=1631634988487&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fansi-regex%2Fdownload%2Fansi-regex-5.0.1.tgz#082cb2c89c9fe8659a311a53bd6a4dc5301db304"
   integrity sha1-CCyyyJyf6GWaMRpTvWpNxTAdswQ=
@@ -231,6 +257,11 @@ ansi-styles@^4.0.0, ansi-styles@^4.1.0:
   integrity sha1-7dgDYornHATIWuegkG7a00tkiTc=
   dependencies:
     color-convert "^2.0.1"
+
+ansi-styles@^5.0.0:
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/ansi-styles/-/ansi-styles-5.2.0.tgz#07449690ad45777d1924ac2abb2fc8895dba836b"
+  integrity sha512-Cxwpt2SfTzTtXcfOlzGEee8O+c+MmUgGrNiBcXnuWxuFJHe6a5Hz7qwhwe5OgaSYI0IJvkLqWX1ASG+cJOkEiA==
 
 asap@~2.0.3:
   version "2.0.6"
@@ -358,6 +389,11 @@ diff-sequences@^26.6.2:
   resolved "https://registry.nlark.com/diff-sequences/download/diff-sequences-26.6.2.tgz#48ba99157de1923412eed41db6b6d4aa9ca7c0b1"
   integrity sha1-SLqZFX3hkjQS7tQdtrbUqpynwLE=
 
+diff-sequences@^27.4.0:
+  version "27.4.0"
+  resolved "https://registry.yarnpkg.com/diff-sequences/-/diff-sequences-27.4.0.tgz#d783920ad8d06ec718a060d00196dfef25b132a5"
+  integrity sha512-YqiQzkrsmHMH5uuh8OdQFU9/ZpADnwzml8z0O5HvRNda+5UZsaX/xN+AAxfR2hWq1Y7HZnAzO9J5lJXOuDz2Ww==
+
 doctypes@^1.1.0:
   version "1.1.0"
   resolved "https://registry.npm.taobao.org/doctypes/download/doctypes-1.1.0.tgz#ea80b106a87538774e8a3a4a5afe293de489e0a9"
@@ -382,6 +418,11 @@ evtd@^0.2.2:
   version "0.2.2"
   resolved "https://registry.nlark.com/evtd/download/evtd-0.2.2.tgz#bebbe27e15aedc1d5c18bc2620dfc90f260787c3"
   integrity sha1-vrvifhWu3B1cGLwmIN/JDyYHh8M=
+
+evtd@^0.2.3:
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/evtd/-/evtd-0.2.3.tgz#185158d533b4440ee831a0fa0cffde16e8bda504"
+  integrity sha512-tmiT1YUVqFjTY+BSBOAskL83xNx41iUfpvKP6Gcd/xMHjg3mnER98jXGXJyKnxCG19uPc6EhZiUC+MUyvoqCtw==
 
 fsevents@~2.3.2:
   version "2.3.2"
@@ -491,10 +532,25 @@ jest-diff@^26.0.0:
     jest-get-type "^26.3.0"
     pretty-format "^26.6.2"
 
+jest-diff@^27.0.0:
+  version "27.4.2"
+  resolved "https://registry.yarnpkg.com/jest-diff/-/jest-diff-27.4.2.tgz#786b2a5211d854f848e2dcc1e324448e9481f36f"
+  integrity sha512-ujc9ToyUZDh9KcqvQDkk/gkbf6zSaeEg9AiBxtttXW59H/AcqEYp1ciXAtJp+jXWva5nAf/ePtSsgWwE5mqp4Q==
+  dependencies:
+    chalk "^4.0.0"
+    diff-sequences "^27.4.0"
+    jest-get-type "^27.4.0"
+    pretty-format "^27.4.2"
+
 jest-get-type@^26.3.0:
   version "26.3.0"
   resolved "https://registry.nlark.com/jest-get-type/download/jest-get-type-26.3.0.tgz#e97dc3c3f53c2b406ca7afaed4493b1d099199e0"
   integrity sha1-6X3Dw/U8K0Bsp6+u1Ek7HQmRmeA=
+
+jest-get-type@^27.4.0:
+  version "27.4.0"
+  resolved "https://registry.yarnpkg.com/jest-get-type/-/jest-get-type-27.4.0.tgz#7503d2663fffa431638337b3998d39c5e928e9b5"
+  integrity sha512-tk9o+ld5TWq41DkK14L4wox4s2D9MtTpKaAVzXfr5CUKm5ZK2ExcaFE0qls2W71zE/6R2TxxrK9w2r6svAFDBQ==
 
 js-stringify@^1.0.2:
   version "1.0.2"
@@ -566,10 +622,10 @@ minimist@^1.2.0:
   resolved "https://registry.npm.taobao.org/minimist/download/minimist-1.2.5.tgz?cache=0&sync_timestamp=1602337228360&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fminimist%2Fdownload%2Fminimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
   integrity sha1-Z9ZgFLZqaoqqDAg8X9WN9OTpdgI=
 
-naive-ui@^2.18.2:
-  version "2.18.2"
-  resolved "https://registry.nlark.com/naive-ui/download/naive-ui-2.18.2.tgz#82933bb51ebd44f433075ee77bce3b79faab6139"
-  integrity sha1-gpM7tR69RPQzB17ne847efqrYTk=
+naive-ui@^2.19.11:
+  version "2.21.5"
+  resolved "https://registry.yarnpkg.com/naive-ui/-/naive-ui-2.21.5.tgz#b433cdc2e8b394e57274f0000eb65ad43d3586a0"
+  integrity sha512-/vgWS4DdV7Ck8LgqAZCAynnLC9AXP9na1G3Uou1OeHYOgy3w07AcffpZVsAQtgYYuU8fRd6ogAABoLX3wZmRFg==
   dependencies:
     "@css-render/plugin-bem" "^0.15.6"
     "@css-render/vue3-ssr" "^0.15.6"
@@ -579,16 +635,16 @@ naive-ui@^2.18.2:
     css-render "^0.15.6"
     date-fns "^2.19.0"
     date-fns-tz "^1.1.6"
-    evtd "^0.2.2"
+    evtd "^0.2.3"
     highlight.js "^11.0.1"
     lodash "^4.17.21"
     lodash-es "^4.17.21"
-    seemly "^0.3.1"
-    treemate "^0.3.4"
+    seemly "^0.3.3"
+    treemate "^0.3.9"
     vdirs "^0.1.4"
     vfonts "^0.1.0"
-    vooks "^0.2.6"
-    vueuc "^0.4.9"
+    vooks "^0.2.10"
+    vueuc "^0.4.18"
 
 nanoid@^3.1.23:
   version "3.1.25"
@@ -677,6 +733,16 @@ pretty-format@^26.0.0, pretty-format@^26.6.2:
     "@jest/types" "^26.6.2"
     ansi-regex "^5.0.0"
     ansi-styles "^4.0.0"
+    react-is "^17.0.1"
+
+pretty-format@^27.0.0, pretty-format@^27.4.2:
+  version "27.4.2"
+  resolved "https://registry.yarnpkg.com/pretty-format/-/pretty-format-27.4.2.tgz#e4ce92ad66c3888423d332b40477c87d1dac1fb8"
+  integrity sha512-p0wNtJ9oLuvgOQDEIZ9zQjZffK7KtyR6Si0jnXULIDwrlNF8Cuir3AZP0hHv0jmKuNN/edOnbMjnzd4uTcmWiw==
+  dependencies:
+    "@jest/types" "^27.4.2"
+    ansi-regex "^5.0.1"
+    ansi-styles "^5.0.0"
     react-is "^17.0.1"
 
 promise@^7.0.1:
@@ -821,6 +887,13 @@ seemly@^0.3.1:
   dependencies:
     "@types/jest" "^26.0.20"
 
+seemly@^0.3.3:
+  version "0.3.3"
+  resolved "https://registry.yarnpkg.com/seemly/-/seemly-0.3.3.tgz#a6482f374e042f873f63dc7622cb1529c251574e"
+  integrity sha512-mAyqemz41e9HiZPMXAn7NtTExJgztwco5cdZjrt/iViU/oFeav+Q8K1c93M/tIZZ00QkT65JMr4xXQk7Vv5hWQ==
+  dependencies:
+    "@types/jest" "^27.0.1"
+
 source-map-js@^0.6.2:
   version "0.6.2"
   resolved "https://registry.npm.taobao.org/source-map-js/download/source-map-js-0.6.2.tgz#0bb5de631b41cfbda6cfba8bd05a80efdfd2385e"
@@ -858,10 +931,10 @@ token-stream@1.0.0:
   resolved "https://registry.npm.taobao.org/token-stream/download/token-stream-1.0.0.tgz#cc200eab2613f4166d27ff9afc7ca56d49df6eb4"
   integrity sha1-zCAOqyYT9BZtJ/+a/HylbUnfbrQ=
 
-treemate@^0.3.4:
-  version "0.3.5"
-  resolved "https://registry.nlark.com/treemate/download/treemate-0.3.5.tgz#6fcecedc587b89814de23686c10c10d687b0199f"
-  integrity sha1-b87O3Fh7iYFN4jaGwQwQ1oewGZ8=
+treemate@^0.3.9:
+  version "0.3.9"
+  resolved "https://registry.yarnpkg.com/treemate/-/treemate-0.3.9.tgz#62d207a03eda479ec20889779f4a00d33fe98e24"
+  integrity sha512-/TE70ZXKy5s91EIM+Law46emnD50XmsKl6vlSjPt0XZnGtTgUS0qw3EDyC651CJYdkdpsMgW0HVpbH0xhpBjew==
 
 util-deprecate@^1.0.2:
   version "1.0.2"
@@ -898,7 +971,14 @@ void-elements@^3.1.0:
   resolved "https://registry.npm.taobao.org/void-elements/download/void-elements-3.1.0.tgz#614f7fbf8d801f0bb5f0661f5b2f5785750e4f09"
   integrity sha1-YU9/v42AHwu18GYfWy9XhXUOTwk=
 
-vooks@^0.2.4, vooks@^0.2.6:
+vooks@^0.2.10:
+  version "0.2.10"
+  resolved "https://registry.yarnpkg.com/vooks/-/vooks-0.2.10.tgz#2656f4c025758ed97edc4a9584c9cc15ecffb70b"
+  integrity sha512-clZkEndDEUyUFP7u1dL0iijcW0p04Hhj50IVcakRrLjQkuZIr7sx6EX9oMyWgrYVjmfdX6vysnCg3OxsYl67jA==
+  dependencies:
+    evtd "^0.2.2"
+
+vooks@^0.2.4:
   version "0.2.8"
   resolved "https://registry.nlark.com/vooks/download/vooks-0.2.8.tgz#fad6a78c72e39443e56285337b0843baaeed0f3e"
   integrity sha1-+tanjHLjlEPlYoUzewhDuq7tDz4=
@@ -914,10 +994,10 @@ vue@^3.2.6:
     "@vue/runtime-dom" "3.2.11"
     "@vue/shared" "3.2.11"
 
-vueuc@^0.4.9:
-  version "0.4.10"
-  resolved "https://registry.nlark.com/vueuc/download/vueuc-0.4.10.tgz#ae26ba76a0af154f8a139ef3718135a2c6adf676"
-  integrity sha1-ria6dqCvFU+KE57zcYE1osat9nY=
+vueuc@^0.4.18:
+  version "0.4.18"
+  resolved "https://registry.yarnpkg.com/vueuc/-/vueuc-0.4.18.tgz#6d6895e96ecea0abf3f1c2d415d95f23ef84899d"
+  integrity sha512-fHoMFbwfaVs4S3U5tCSu2i4Xm5GZDNw9FuFNjRwCXiLB1S3rYTYuhjUWdX/+38SL5d9ivEkpsvfve/Msp2lwwg==
   dependencies:
     css-render "^0.15.3"
     evtd "^0.2.2"

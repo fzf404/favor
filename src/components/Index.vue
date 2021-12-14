@@ -1,31 +1,27 @@
 <script setup>
 import { ref } from "vue";
 import {
-  NCard,
   NGrid,
+  NGridItem,
   NH1,
   NH2,
-  NImage,
-  NEllipsis,
   NText,
-  NButton,
   NAnchor,
   NAnchorLink,
-  NBackTop,
 } from "naive-ui";
 
+import FavorItem from './Item.vue'
+
+// const color = ["success", "info", "warning", "error"];
 const data = ref({});
-const color = ["success", "info", "warning", "error"];
 
 fetch("data.json")
   .then((response) => response.json())
   .then((json) => {
     data.value = json;
+    Object.freeze(data)
   });
 
-const handleClick = (url) => {
-  window.open(url);
-};
 </script>
 
 <template lang="pug">
@@ -39,7 +35,6 @@ div(style="margin-left: 1rem")
   )
     n-anchor-link(title="首页", href="#")
     n-anchor-link(v-for="(item, key) in data", :title="key", :href="'#' + key")
-
 .content
   n-h1.title
     | 作品推荐
@@ -49,38 +44,13 @@ div(style="margin-left: 1rem")
         | {{ key }}
       span.sub-title
         | {{ item['description'] }}
-    n-grid(cols="1 s:2 m:3 l:4 xl:4 2xl:5", responsive="screen")
-      n-grid-item.card-normal(v-for="i in item['list']")
-        n-card.card-item(hoverable)
-          template(#cover)
-            n-image.card-img(
-              :src="i['image']",
-              height="240",
-              show-toolbar=false
-            )
-          template(#header)
-            n-ellipsis(line-clamp="1")
-              | {{ i['title'] }}
-          template(#header-extra)
-            | {{ i['author'] }}
-          template(#default)
-            n-ellipsis(line-clamp="1")
-              n-text(type="info")
-                | 介绍：{{ i['intro'] }}
-          template(#footer)
-            n-ellipsis(line-clamp="2", style="min-height: 50px")
-              n-text(type="success")
-                | 短评：{{ i['comment'] }}
-          template(#action)
-            n-text(code, style="min-width: 100%")
-              n-ellipsis(
-                :line-clamp="item['max']",
-                :style="'min-height:' + item['max'] * 20 + 'px'"
-              )
-                | “ {{ i['content'] }} ”
+    n-grid(cols="1 s:2 m:3 l:4 xl:5 2xl:6", responsive="screen")
+      n-grid-item.grid-item(v-for="i in item['list']")
+        FavorItem(:item="i",:max="item['max']")
 </template>
 
-<style>
+<style scoped>
+
 .content {
   padding: 5vh 10vw;
   background-color: #f0f2f5;
@@ -105,28 +75,8 @@ div(style="margin-left: 1rem")
   margin-left: 1.4rem;
 }
 
-.card-normal {
+.grid-item {
   margin: 0.6rem;
   margin-bottom: 1rem;
-}
-
-.card-item {
-  border-radius: 22px;
-}
-
-.card-img {
-  padding: 1rem 3rem;
-}
-
-.v-binder-follower-container {
-  max-width: 500px;
-}
-
-.n-card-header__extra {
-  color: #666 !important;
-}
-
-.n-card__action {
-  border-radius: 22px !important;
 }
 </style>
