@@ -1,21 +1,15 @@
 <script setup>
-import {
-  NCard,
-  NImage,
-  NEllipsis,
-  NText,
-} from "naive-ui";
+import { NCard, NImage, NEllipsis, NText } from 'naive-ui';
 
 // 获得参数
 defineProps({
   item: Object,
-  max: Number
-})
+  max: Number,
+});
 
 const handleClick = (url) => {
   window.open(url);
 };
-
 </script>
 
 <template lang="pug">
@@ -23,9 +17,9 @@ const handleClick = (url) => {
 n-card.card-item(hoverable)
   template(#cover)
     n-image.card-img(
-      :src="item['image']",
-      height="240",
-      preview-disabled=true,
+      :src="item['image']"
+      height="240"
+      preview-disabled=true
       @click="handleClick(item['url'])"
     )
   template(#header)
@@ -38,20 +32,19 @@ n-card.card-item(hoverable)
       n-text(type="info")
         | 介绍：{{ item['intro'] }}
   template(#footer)
-    n-ellipsis(line-clamp="2", style="min-height: 50px")
+    n-ellipsis(line-clamp="2" style="min-height: 50px")
       n-text(type="success")
         | 短评：{{ item['comment'] }}
   template(#action)
-    n-text(code, style="min-width: 100%")
+    n-text(code style="min-width: 100%")
       n-ellipsis(
-        :line-clamp="max",
+        :line-clamp="max"
         :style="'min-height:' + max * 20 + 'px'"
       )
         | “ {{ item['content'] }} ”
 </template>
 
 <style>
-
 .card-item {
   max-width: 300px;
   border-radius: 22px;
@@ -73,5 +66,4 @@ n-card.card-item(hoverable)
 .n-card-header__extra {
   color: #666 !important;
 }
-
 </style>
