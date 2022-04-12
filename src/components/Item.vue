@@ -59,8 +59,8 @@ n-card.card-item(hoverable)
 }
 
 .n-card__action {
-  border-bottom-left-radius: 22px;
-  border-bottom-right-radius: 22px;
+  border-bottom-left-radius: 22px !important;
+  border-bottom-right-radius: 22px !important;
 }
 
 .n-card-header__extra {
