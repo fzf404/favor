@@ -1,4 +1,4 @@
-name: FAVOR_DEPLOY
+name: gh-pages
 
 on:
   push:
@@ -15,15 +15,15 @@ jobs:
       - name: Node
         uses: actions/setup-node@v2
         with:
-          node-version: "12"
+          node-version: 16
 
       - name: Setup
         run: |
-          yarn install
+          yarn
 
       - name: Build
         run: |
-          yarn run build
+          yarn build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
