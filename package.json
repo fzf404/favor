@@ -7,13 +7,12 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.2.6"
+    "vue": "^3.2.45"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^1.6.1",
-    "@vue/compiler-sfc": "^3.2.6",
-    "naive-ui": "^2.25.5",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "naive-ui": "^2.34.3",
     "pug": "^3.0.2",
-    "vite": "^2.5.4"
+    "vite": "^4.0.3"
   }
 }

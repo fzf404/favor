@@ -1,15 +1,15 @@
 <script setup>
-import { NCard, NImage, NEllipsis, NText } from 'naive-ui';
+import { NCard, NImage, NEllipsis, NText } from 'naive-ui'
 
 // 获得参数
 defineProps({
   item: Object,
   max: Number,
-});
+})
 
-const handleClick = (url) => {
-  window.open(url);
-};
+const jump = (url) => {
+  window.open(url)
+}
 </script>
 
 <template lang="pug">
@@ -20,7 +20,7 @@ n-card.card-item(hoverable)
       :src="item['image']"
       height="240"
       preview-disabled=true
-      @click="handleClick(item['url'])"
+      @click="jump(item['url'])"
     )
   template(#header)
     n-ellipsis(line-clamp="1")
@@ -46,8 +46,8 @@ n-card.card-item(hoverable)
 
 <style>
 .card-item {
-  max-width: 300px;
-  border-radius: 22px;
+  max-width: 18rem;
+  border-radius: 0.6rem;
 }
 
 .card-img {
@@ -59,11 +59,7 @@ n-card.card-item(hoverable)
 }
 
 .n-card__action {
-  border-bottom-left-radius: 22px !important;
-  border-bottom-right-radius: 22px !important;
-}
-
-.n-card-header__extra {
-  color: #666 !important;
+  border-bottom-left-radius: 0.6rem !important;
+  border-bottom-right-radius: 0.6rem !important;
 }
 </style>

@@ -13,7 +13,7 @@ const themeOverrides = {
   },
   Typography: {
     headerFontSize1: '44px',
-    headerTextColor: '#555',
+    headerTextColor: '#666',
     headerFontSize2: '30px',
   },
 };
