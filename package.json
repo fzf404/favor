@@ -1,10 +1,10 @@
 {
   "name": "favor",
-  "version": "0.0.1",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "serve": "vite preview"
+    "build": "vite build"
   },
   "dependencies": {
     "vue": "^3.2.45"
