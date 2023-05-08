@@ -1,4 +1,7 @@
 <script setup>
+import { NBackTop, NConfigProvider } from 'naive-ui'
+import Index from './components/Index.vue'
+
 const themeOverrides = {
   common: {
     fontSize: '16px'
@@ -20,5 +23,3 @@ n-config-provider(:theme-overrides="themeOverrides")
   n-back-top(:bottom="80" :right="60" show)
   Index
 </template>
-
-<style></style>

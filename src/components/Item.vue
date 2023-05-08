@@ -1,4 +1,6 @@
 <script setup>
+import { NCard, NEllipsis, NImage, NText } from 'naive-ui'
+
 defineProps({
   item: Object,
   max: Number
@@ -10,6 +12,7 @@ const jump = (url) => {
 </script>
 
 <template lang="pug">
+
 n-card.card-item(hoverable)
   template(#cover)
     n-image.card-img(

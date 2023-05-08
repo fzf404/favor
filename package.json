@@ -13,6 +13,7 @@
     "@vitejs/plugin-vue": "^4.2.1",
     "naive-ui": "^2.34.3",
     "pug": "^3.0.2",
-    "vite": "^4.3.5"
+    "vite": "^4.3.5",
+    "@volar/vue-language-plugin-pug": "latest"
   }
 }

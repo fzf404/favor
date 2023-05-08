@@ -1,6 +1,10 @@
 <script setup>
 import { ref } from 'vue'
 
+import { NAnchor, NAnchorLink, NGrid, NGridItem, NH1, NH2, NText } from 'naive-ui'
+
+import FavorItem from './Item.vue'
+
 const data = ref({})
 
 fetch('data.json')
@@ -21,7 +25,7 @@ nav
     :bound="600"
     :trigger-top="24"
   )
-    n-anchor-link(title="首页" href="#")
+    n-anchor-link(title="首页" href="/")
     n-anchor-link(v-for="(item, key) in data" :title="key" :href="'#' + key")
 //- 主要内容
 main
@@ -29,7 +33,7 @@ main
   n-h1.title
     | 作品推荐
   //- 网站内容
-  section(v-for="(item, key) in data" style="padding-top: 2rem")
+  section(v-for="(item, key) in data" style="padding-top: 2rem" :id="key")
     n-h2.box-header(prefix="bar" :type="item['color']")
       n-text(:type="item['color']")
         | {{ key }}
