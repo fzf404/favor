@@ -1,10 +1,7 @@
 <script setup>
-import { NCard, NImage, NEllipsis, NText } from 'naive-ui'
-
-// 获得参数
 defineProps({
   item: Object,
-  max: Number,
+  max: Number
 })
 
 const jump = (url) => {
@@ -13,7 +10,6 @@ const jump = (url) => {
 </script>
 
 <template lang="pug">
-
 n-card.card-item(hoverable)
   template(#cover)
     n-image.card-img(

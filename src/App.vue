@@ -1,22 +1,18 @@
 <script setup>
-import { NConfigProvider } from 'naive-ui';
-import { NBackTop } from 'naive-ui';
-import Index from './components/Index.vue';
-
 const themeOverrides = {
   common: {
-    fontSize: '16px',
+    fontSize: '16px'
   },
   Card: {
     titleFontSizeMedium: '22px',
-    paddingMedium: '6px 20px 8px',
+    paddingMedium: '6px 20px 8px'
   },
   Typography: {
     headerFontSize1: '44px',
     headerTextColor: '#666',
-    headerFontSize2: '30px',
-  },
-};
+    headerFontSize2: '30px'
+  }
+}
 </script>
 
 <template lang="pug">

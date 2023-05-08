@@ -1,10 +1,6 @@
 <script setup>
 import { ref } from 'vue'
 
-import { NGrid, NGridItem, NH1, NH2, NText, NAnchor, NAnchorLink } from 'naive-ui'
-
-import FavorItem from './Item.vue'
-
 const data = ref({})
 
 fetch('data.json')

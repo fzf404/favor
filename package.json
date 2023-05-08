@@ -7,12 +7,12 @@
     "build": "vite build"
   },
   "dependencies": {
-    "vue": "^3.2.45"
+    "vue": "^3.2.47"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^4.0.0",
+    "@vitejs/plugin-vue": "^4.2.1",
     "naive-ui": "^2.34.3",
     "pug": "^3.0.2",
-    "vite": "^4.0.3"
+    "vite": "^4.3.5"
   }
 }
